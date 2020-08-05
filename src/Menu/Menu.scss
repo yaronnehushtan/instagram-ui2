@@ -1,0 +1,73 @@
+//@media (min-width: 576px){
+
+    .header-logo {
+        height: 50px;
+        width: 50px;
+        background-image: url("../images/instagram-icon.png");
+        background-position: center center;
+        //background-color: green;
+        background-repeat: no-repeat;
+        background-size: 110%;
+        color: yellow;
+        //border: 1px solid white;
+
+    }
+
+    .nav-link{
+        font-size: 30px;
+        margin-left: 25px;
+        color: white;
+    }
+
+
+    .Menu{
+        border: 3px;;
+        background-color: #1c2833;
+    }
+
+//}
+
+
+@media (min-width: 768px){
+
+    .header-logo {
+        height: 50px;
+        width: 150px;
+        background-size: 100%;
+        background-image: url("../images/instagram-logo.png");
+    }
+
+    .nav-link{
+        color: #1c2833;
+    }
+
+
+    .Menu{
+        border: 3px;
+        background-color: white;
+    }
+
+}
+
+
+
+
+
+
+
+//
+//.navbar {
+//    background-color: green;
+//}
+
+// #Menu{
+//     background-color: red!important;
+//     order: 1;  
+// }
+
+// @media screen and (max-width: 992px) {
+//     #Menu {
+//       background-color: blue!important;
+//       order: 3;
+//     }
+//   }

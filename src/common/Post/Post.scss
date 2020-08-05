@@ -1,0 +1,55 @@
+.Post {
+
+  //.post-avatar-img{
+  //  height:28px !important;
+  //}
+  .card-body {
+    height: 80px;
+  }
+
+
+  .image-container{
+    height: 250px;
+    overflow: hidden;
+
+    img {
+      transition: all .2s ease-in-out;
+    }
+  }
+
+  .post-image {
+    width: 100%;
+    min-width: 100%;
+    min-height: 250px;
+  }
+
+  @media (min-width: 768px){
+    .image-container {
+      height: 180px;
+    }
+
+    .post-image {
+      min-height: 180px;
+    }
+  }
+
+
+
+
+    p{
+    background-color: white;
+  }
+
+
+}
+
+.Post:hover {
+  .card {
+    border-color: silver;
+  }
+  .image-container {
+    img {
+      transform: scale(1.1);
+    }
+  }
+}

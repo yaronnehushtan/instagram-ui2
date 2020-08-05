@@ -1,0 +1,63 @@
+.PostPage {
+
+  background-color: white;
+  width: 90%;
+  margin: 0 auto;
+
+
+
+  .post-page-container{
+    background-color: green;
+  }
+
+  .image-container{
+    height: 380px;
+    overflow: hidden;
+
+  }
+
+  .post-image {
+    width: 96%;
+    min-width: 96%;
+    min-height: 380px;
+  }
+
+  .postPage-left{
+    p {
+      color: black;
+    }
+
+  }
+
+  .avatar-container{
+
+    p{
+      font-size: 30px;
+      color: black;
+    }
+  }
+
+  @media (min-width: 440px) {
+    .post-image {
+      width: 96.5%;
+      min-height: 380px;
+    }
+  }
+
+  @media (min-width: 490px) {
+    .post-image {
+      width: 97%;
+      min-height: 380px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .post-image {
+      width: 100%;
+      min-height: 380px;
+    }
+  }
+
+
+
+}

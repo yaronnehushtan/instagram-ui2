@@ -1,0 +1,23 @@
+.Avatar {
+  //overflow: hidden;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+
+  &--sm{
+    height: 37px;
+    width: 37px;
+  }
+
+  &--md{
+    height: 45px;
+    width: 45px;
+  }
+
+  &--lg{
+    height: 150px;
+    width: 150px;
+  }
+
+}

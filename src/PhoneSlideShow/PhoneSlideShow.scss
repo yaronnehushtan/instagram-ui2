@@ -1,0 +1,49 @@
+.PhoneSlideShow form, .form-group, .text-center, p, label{
+  background-color: white;
+}
+
+
+#phone-container{
+  background-image: url('../images/iphone.png');
+  background-color: #fafafa;
+  background-size: 454px 618px;
+  width: 454px;
+  height: 618px;
+  position: absolute;
+}
+//
+//#temp-container{
+//    width: 454px;
+//    height: 95px;
+//    background-color: #fafafa;
+//    position: absolute;
+//}
+
+//@media (min-width: 768px){
+//  #iphoneSlideShow{
+//    position: relative;
+//    //height: 100px;
+//    width: 248px;
+//    top: 95px;
+//    left: 32.5%;
+//  }
+//
+//@media (max-width: 992px) {
+//  #iphoneSlideShow {
+//    position: relative;
+//    //height: 100px;
+//    width: 1248px;
+//    top: 95px;
+//    left: 38.5%;
+//    border: 1px solid red;
+//  }
+//}
+
+
+#iphoneSlideShow{
+    position: relative;
+
+    width: 248px;
+    top: 95px;
+    left: 32.5%;
+  }

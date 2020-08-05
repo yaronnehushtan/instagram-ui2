@@ -1,0 +1,51 @@
+.CommentLike {
+
+  color: #8e8e8e;
+
+}
+
+.liked {
+  color: #ed5761;
+}
+
+
+  .heart-container{
+
+    [class="heart"] {
+      position: absolute;
+      left: -100vw;
+    }
+
+    [class="heart"] {
+      color: #aab8c2;
+      cursor: pointer;
+      font-size: 6em;
+      align-self: center;
+      transition: color 0.2s ease-in-out;
+    }
+
+    [class="heart"]:hover {
+      color: grey;
+    }
+
+    [class="heart"]::selection {
+      color: none;
+      background: transparent;
+    }
+
+    [class="heart"]::moz-selection {
+      color: none;
+      background: transparent;
+    }
+
+    [class="heart"]:checked + label {
+      color: #e2264d;
+      will-change: font-size;
+      animation: heart 1s cubic-bezier(.17, .89, .32, 1.49);
+    }
+
+
+
+    @keyframes heart {0%, 17.5% {font-size: 0;}}
+
+  }
